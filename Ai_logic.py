@@ -13,6 +13,8 @@ load_dotenv()
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 # Load prebuilt vectorstore
+
+ 
 embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vectorstore = FAISS.load_local("faiss_index", embedding_model, allow_dangerous_deserialization=True)
 retriever = vectorstore.as_retriever()
