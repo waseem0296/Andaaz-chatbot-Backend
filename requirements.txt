@@ -1,8 +1,9 @@
-flask
-flask-cors
-python-dotenv
-langchain
+torch
+transformers
+langchain-core
 langchain-community
 langchain-groq
+python-dotenv
 faiss-cpu
-sentence-transformers
+flask
+flask-cors
