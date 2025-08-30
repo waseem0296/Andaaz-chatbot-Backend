@@ -4,9 +4,4 @@ python-dotenv
 langchain
 langchain-community
 langchain-groq
-pytesseract
-Pillow
-requests
-beautifulsoup4
 faiss-cpu
-sentence-transformers
